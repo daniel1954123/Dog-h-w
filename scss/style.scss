@@ -1,0 +1,330 @@
+$darkColor:#000000;
+$blackColor:#170C04;
+$whiteColor:#FFFFFF;
+$bgDarkOrangeColor:#E27B3A;
+$DarkOrangeColor:#E27B3A;
+$lightGreyColor:#A9A9A9;
+$beigeColor:#FCF2EB;
+
+$fontSize16: 16px;
+$fontSize20: 20px;
+$fontSize22: 22px;
+$fontSize25: 25px;
+$fontSize26: 26px;
+$fontSize32: 32px;
+$fontSize100: 100px;
+
+$fontFamily: Poppins;
+$fontFamilyRoboto: Roboto;
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  &__menu{
+    font-family: $fontFamilyRoboto;
+    font-weight: 400;
+    display: flex;
+    margin: 31px 176px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__links{
+
+  }
+  &__links a{
+    text-decoration: none;
+    color: $blackColor;
+    margin: 55px;
+  }
+}
+.content{
+  display: flex;
+  &__main{
+  }
+  &__text{
+    font-family: $fontFamily;
+    font-size: $fontSize100;
+    font-weight: 700;
+    color: $blackColor;
+    margin-left: 110px;
+    padding-top: 140px;
+  }
+  &__button{
+    margin-left: 200px;
+    padding-top: 80px;
+    &__left{
+      font-family: $fontFamilyRoboto;
+      border: 1px solid ;
+      border-radius: 24px;
+      background: $bgDarkOrangeColor;
+      color: $whiteColor;
+      padding: 12px 30px;
+    }
+    &__right{
+      font-family: $fontFamilyRoboto;
+      border: 1px solid  #E5E5E5;
+      background: $whiteColor;
+      border-radius: 24px;
+      color: $DarkOrangeColor;
+      padding: 12px 30px;
+    }
+  }
+}
+.cards{
+  display: flex;
+  padding-top: 106px;
+  justify-content: center;
+  &__content{
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    width: 305px;
+    height: 155px;
+    margin: 30px;
+    padding: 31px 35px;
+    text-align: center;
+    &__text{
+      font-weight: 400;
+      font-Family: $fontFamily;
+      font-size: $fontSize25;
+    }
+    &__description{
+      font-size:$fontSize16;
+      color: $lightGreyColor;
+      margin-top: 11px;
+      font-family: $fontFamilyRoboto;
+    }
+    &__other{
+      font-family: $fontFamilyRoboto;
+      margin-top: 24px;
+      font-size:$fontSize16;
+      color: $DarkOrangeColor;
+    }
+  }
+}
+.products{
+  &__content{
+    font-family: $fontFamily;
+    text-align: center;
+    margin-top: 112px;
+  }
+  &__text{
+    font-family: $fontFamilyRoboto;
+    font-size: $fontSize16;
+    color: $lightGreyColor;
+    margin-top: 18px;
+  }
+  &__images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+  }
+  &__badge{
+    border: 1px solid $beigeColor;
+    border-radius: 20px;
+    background: $beigeColor;
+    padding: 71px 91px;
+    margin-right: 15px;
+  }
+  &__collarBl{
+    border: 1px solid $beigeColor;
+    border-radius: 20px;
+    background: $beigeColor;
+    padding: 59px 125px;
+    margin-left: 15px;
+  }
+  &__textl{
+    font-weight: 500;
+    font-family: $fontFamily;
+    font-size: $fontSize25;
+    margin-top: 25px;
+    color: $blackColor;
+  }
+  &__details{
+    font-family: $fontFamilyRoboto;
+    font-size: $fontSize16;
+    margin-top: 9px;
+    color: $DarkOrangeColor;
+  }
+  &__collars{
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  &__collarsBr{
+    border: 1px solid $beigeColor;
+    border-radius: 20px;
+    background: $beigeColor;
+    padding: 26px 61px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+.subscription{
+  &__main-text{
+    font-family: $fontFamily;
+    text-align: center;
+    margin-top: 145px;
+    font-size: $fontSize26;
+  }
+  &__images{
+    margin-left: 83px;
+    margin-right: 83px;
+  }
+  &__pictures{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 36px;
+  }
+  &__text{
+    font-family: $fontFamily;
+    margin-top: 51px;
+    font-size: $fontSize20;
+    color: $blackColor;
+  }
+  &__description{
+    font-family: $fontFamilyRoboto;
+    font-size: $fontSize16;
+    color: $lightGreyColor;
+    margin-top: 22px;
+  }
+  &__details{
+    font-family: $fontFamilyRoboto;
+    font-size: $fontSize16;
+    color: $DarkOrangeColor;
+    margin-top: 15px;
+  }
+  &__button{
+    padding-top: 46px;
+    margin-left: 46%;
+  }
+  &__btn{
+    font-family: $fontFamilyRoboto;
+    border: 1px solid $DarkOrangeColor;
+    border-radius: 20px;
+    background: $DarkOrangeColor;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    width: 63px;
+
+  }
+}
+.gallery{
+  &__text{
+    margin-top: 142px;
+    margin-left: 187px;
+  }
+  &__item{
+    font-family: $fontFamily;
+  }
+  &__item2{
+    font-family: $fontFamilyRoboto;
+    font-size: $fontSize16;
+    color: $lightGreyColor;
+    margin-top: 12px;
+  }
+  &__accessories{
+    display: flex;
+    position: absolute;
+  }
+  &__images{
+    display: flex;
+  }
+  &__pictures{
+    display: flex;
+  }
+  &__photos{
+    margin-top: 70px;
+    padding-left: 187px;
+  }
+  &__for-dogs{
+    padding-top: 30px;
+    margin-left: 116px;
+  }
+  &__BD-collars{
+    border: 1px solid $beigeColor;
+    background: $beigeColor;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 25px 39px;
+    height: 120px;
+    width: 184px;
+  }
+  &__red-badges{
+    border: 1px solid #FFC0CB;
+    background: #FFC0CB;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 25px 39px;
+    height: 120px;
+    width: 184px;
+  }
+  &__BD-collar{
+    border: 1px solid #FFC0CB;
+    background: #FFC0CB;
+    margin-top: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 25px 39px;
+    height: 120px;
+    width: 184px;
+  }
+  &__red-badge{
+    border: 1px solid $beigeColor;
+    background: $beigeColor;
+    margin-top: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 25px 39px;
+    height: 120px;
+    width: 184px;
+  }
+}
+.footer{
+  display: flex;
+  height: 364px;
+  margin-top: 300px;
+  justify-content: space-between;
+  background: $blackColor;
+  &__details{
+    font-family: $fontFamilyRoboto;
+    padding-top: 136px;
+    color: $whiteColor;
+  }
+  &__m-part{
+    margin-top: 57px;
+    padding-left: 20px;
+    padding-right: 155px;
+    color: $whiteColor;
+  }
+  &__text{
+    font-family: $fontFamily;
+    font-size: $fontSize26;
+    padding-bottom: 53px;
+  }
+  &__logo{
+    padding-left: 64px;
+    margin-bottom: 22px;
+  }
+  &__logo-text{
+    margin-left: 32px;
+  }
+  &__social{
+    padding: 20px;
+  }
+  &__title{
+    font-family: $fontFamilyRoboto;
+    padding-bottom: 37px;
+    margin-right: 184px;
+    margin-left: 150px;
+  }
+  &__title span{
+    color: $DarkOrangeColor;
+  }
+}
